@@ -14,9 +14,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    lazy var promiseCurrentListViewController: PromiseCurrentListViewController = {
+        return UIViewController.register(PromiseCurrentListViewController.self)
+    }()
+    
+    lazy var promisePastListViewController: PromisePastListViewController = {
+        return UIViewController.register(PromisePastListViewController.self)
+    }()
+    
+    lazy var promiseCalendarViewController: PromiseCalendarViewController = {
+        return UIViewController.register(PromiseCalendarViewController.self)
+    }()
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window!.rootViewController = MainTabBarViewController(viewControllers: [promiseCurrentListViewController, promisePastListViewController, promiseCalendarViewController], selectedIndex: 0)
+        window!.makeKeyAndVisible()
         return true
     }
 
@@ -43,6 +56,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
     }
+
 
     // MARK: - Core Data stack
 

@@ -1,0 +1,6 @@
+framework module Pods_PromixSingTests {
+  umbrella header "Pods-PromixSingTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

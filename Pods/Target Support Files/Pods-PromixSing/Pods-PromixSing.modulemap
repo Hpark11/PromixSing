@@ -1,0 +1,6 @@
+framework module Pods_PromixSing {
+  umbrella header "Pods-PromixSing-umbrella.h"
+
+  export *
+  module * { export * }
+}

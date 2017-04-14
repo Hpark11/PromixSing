@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E16EDFB1EA0D7210023A916 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E16EDFA1EA0D7210023A916 /* MainTabBarViewController.swift */; };
 		1E34A7D31EA0C513000362DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E34A7D21EA0C513000362DC /* AppDelegate.swift */; };
-		1E34A7D51EA0C513000362DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E34A7D41EA0C513000362DC /* ViewController.swift */; };
 		1E34A7D81EA0C513000362DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E34A7D61EA0C513000362DC /* Main.storyboard */; };
 		1E34A7DB1EA0C513000362DC /* PromixSing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E34A7D91EA0C513000362DC /* PromixSing.xcdatamodeld */; };
 		1E34A7DD1EA0C513000362DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E34A7DC1EA0C513000362DC /* Assets.xcassets */; };
 		1E34A7E01EA0C513000362DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E34A7DE1EA0C513000362DC /* LaunchScreen.storyboard */; };
 		1E34A7EB1EA0C513000362DC /* PromixSingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E34A7EA1EA0C513000362DC /* PromixSingTests.swift */; };
+		1E34A7FC1EA0C814000362DC /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E34A7FB1EA0C814000362DC /* Reusable.swift */; };
+		1E34A7FF1EA0CA1C000362DC /* PromiseCurrentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E34A7FE1EA0CA1C000362DC /* PromiseCurrentListViewController.swift */; };
+		1E34A8011EA0CA2E000362DC /* PromisePastListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E34A8001EA0CA2E000362DC /* PromisePastListViewController.swift */; };
+		1E34A8031EA0CA3F000362DC /* PromiseCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E34A8021EA0CA3F000362DC /* PromiseCalendarViewController.swift */; };
+		1E34A8071EA0CBA1000362DC /* UIViewController_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E34A8061EA0CBA1000362DC /* UIViewController_Ext.swift */; };
+		5F5B0050575E452295DB4853 /* Pods_PromixSing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54166F5A30698BD873C49C6F /* Pods_PromixSing.framework */; };
+		EBCD984C1FD14153ADA125A8 /* Pods_PromixSingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969A8010060887F899864015 /* Pods_PromixSingTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E16EDFA1EA0D7210023A916 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		1E34A7CF1EA0C513000362DC /* PromixSing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PromixSing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E34A7D21EA0C513000362DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E34A7D41EA0C513000362DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1E34A7D71EA0C513000362DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E34A7DA1EA0C513000362DC /* PromixSing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PromixSing.xcdatamodel; sourceTree = "<group>"; };
 		1E34A7DC1EA0C513000362DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +45,17 @@
 		1E34A7E61EA0C513000362DC /* PromixSingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PromixSingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E34A7EA1EA0C513000362DC /* PromixSingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromixSingTests.swift; sourceTree = "<group>"; };
 		1E34A7EC1EA0C513000362DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E34A7FB1EA0C814000362DC /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		1E34A7FE1EA0CA1C000362DC /* PromiseCurrentListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromiseCurrentListViewController.swift; sourceTree = "<group>"; };
+		1E34A8001EA0CA2E000362DC /* PromisePastListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromisePastListViewController.swift; sourceTree = "<group>"; };
+		1E34A8021EA0CA3F000362DC /* PromiseCalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromiseCalendarViewController.swift; sourceTree = "<group>"; };
+		1E34A8061EA0CBA1000362DC /* UIViewController_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController_Ext.swift; sourceTree = "<group>"; };
+		21D1DDC8E56D81E47BA8A08E /* Pods-PromixSing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromixSing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PromixSing/Pods-PromixSing.debug.xcconfig"; sourceTree = "<group>"; };
+		54166F5A30698BD873C49C6F /* Pods_PromixSing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PromixSing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBE72DFAB6A28DFA7254569 /* Pods-PromixSingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromixSingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PromixSingTests/Pods-PromixSingTests.release.xcconfig"; sourceTree = "<group>"; };
+		969A8010060887F899864015 /* Pods_PromixSingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PromixSingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D7546F6705382C2FE2993F /* Pods-PromixSing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromixSing.release.xcconfig"; path = "Pods/Target Support Files/Pods-PromixSing/Pods-PromixSing.release.xcconfig"; sourceTree = "<group>"; };
+		CDD710A96CEDB20FC96A77A1 /* Pods-PromixSingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromixSingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PromixSingTests/Pods-PromixSingTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F5B0050575E452295DB4853 /* Pods_PromixSing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBCD984C1FD14153ADA125A8 /* Pods_PromixSingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +84,8 @@
 				1E34A7D11EA0C513000362DC /* PromixSing */,
 				1E34A7E91EA0C513000362DC /* PromixSingTests */,
 				1E34A7D01EA0C513000362DC /* Products */,
+				AC2C1D0ABF50AD26594FB8BA /* Pods */,
+				FEF2C95C5A05A60B91002C59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +101,12 @@
 		1E34A7D11EA0C513000362DC /* PromixSing */ = {
 			isa = PBXGroup;
 			children = (
-				1E34A7D21EA0C513000362DC /* AppDelegate.swift */,
-				1E34A7D41EA0C513000362DC /* ViewController.swift */,
-				1E34A7D61EA0C513000362DC /* Main.storyboard */,
-				1E34A7DC1EA0C513000362DC /* Assets.xcassets */,
-				1E34A7DE1EA0C513000362DC /* LaunchScreen.storyboard */,
-				1E34A7E11EA0C513000362DC /* Info.plist */,
-				1E34A7D91EA0C513000362DC /* PromixSing.xcdatamodeld */,
+				1E34A7FA1EA0C5D1000362DC /* Resource */,
+				1E34A7F91EA0C5C3000362DC /* Extension */,
+				1E34A7F81EA0C5B9000362DC /* Protocol */,
+				1E34A7F71EA0C5B4000362DC /* View */,
+				1E34A7F61EA0C5B0000362DC /* Controller */,
+				1E34A7F51EA0C5AB000362DC /* Model */,
 			);
 			path = PromixSing;
 			sourceTree = "<group>";
@@ -99,6 +120,88 @@
 			path = PromixSingTests;
 			sourceTree = "<group>";
 		};
+		1E34A7F51EA0C5AB000362DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E34A7D91EA0C513000362DC /* PromixSing.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1E34A7F61EA0C5B0000362DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E34A7FD1EA0C9D9000362DC /* Main */,
+				1E34A7D21EA0C513000362DC /* AppDelegate.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1E34A7F71EA0C5B4000362DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E34A7D61EA0C513000362DC /* Main.storyboard */,
+				1E34A7DE1EA0C513000362DC /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1E34A7F81EA0C5B9000362DC /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1E34A7FB1EA0C814000362DC /* Reusable.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		1E34A7F91EA0C5C3000362DC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1E34A8061EA0CBA1000362DC /* UIViewController_Ext.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		1E34A7FA1EA0C5D1000362DC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1E34A7DC1EA0C513000362DC /* Assets.xcassets */,
+				1E34A7E11EA0C513000362DC /* Info.plist */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		1E34A7FD1EA0C9D9000362DC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1E34A7FE1EA0CA1C000362DC /* PromiseCurrentListViewController.swift */,
+				1E34A8001EA0CA2E000362DC /* PromisePastListViewController.swift */,
+				1E34A8021EA0CA3F000362DC /* PromiseCalendarViewController.swift */,
+				1E16EDFA1EA0D7210023A916 /* MainTabBarViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		AC2C1D0ABF50AD26594FB8BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21D1DDC8E56D81E47BA8A08E /* Pods-PromixSing.debug.xcconfig */,
+				A6D7546F6705382C2FE2993F /* Pods-PromixSing.release.xcconfig */,
+				CDD710A96CEDB20FC96A77A1 /* Pods-PromixSingTests.debug.xcconfig */,
+				6BBE72DFAB6A28DFA7254569 /* Pods-PromixSingTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEF2C95C5A05A60B91002C59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54166F5A30698BD873C49C6F /* Pods_PromixSing.framework */,
+				969A8010060887F899864015 /* Pods_PromixSingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E34A7EF1EA0C513000362DC /* Build configuration list for PBXNativeTarget "PromixSing" */;
 			buildPhases = (
+				92CEDE274FA39603D939DD59 /* [CP] Check Pods Manifest.lock */,
 				1E34A7CB1EA0C513000362DC /* Sources */,
 				1E34A7CC1EA0C513000362DC /* Frameworks */,
 				1E34A7CD1EA0C513000362DC /* Resources */,
+				BFC1207CF96C5F602A411A42 /* [CP] Embed Pods Frameworks */,
+				BCC2E54E7952ADFF142BBA1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E34A7F21EA0C513000362DC /* Build configuration list for PBXNativeTarget "PromixSingTests" */;
 			buildPhases = (
+				4E504064A30EC91C50624B58 /* [CP] Check Pods Manifest.lock */,
 				1E34A7E21EA0C513000362DC /* Sources */,
 				1E34A7E31EA0C513000362DC /* Frameworks */,
 				1E34A7E41EA0C513000362DC /* Resources */,
+				15A0FD08A258BE480608DCD8 /* [CP] Embed Pods Frameworks */,
+				B55E3607A4660C422449184E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,13 +306,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15A0FD08A258BE480608DCD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PromixSingTests/Pods-PromixSingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E504064A30EC91C50624B58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92CEDE274FA39603D939DD59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B55E3607A4660C422449184E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PromixSingTests/Pods-PromixSingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCC2E54E7952ADFF142BBA1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PromixSing/Pods-PromixSing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFC1207CF96C5F602A411A42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PromixSing/Pods-PromixSing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E34A7CB1EA0C513000362DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E34A7D51EA0C513000362DC /* ViewController.swift in Sources */,
+				1E34A7FC1EA0C814000362DC /* Reusable.swift in Sources */,
+				1E16EDFB1EA0D7210023A916 /* MainTabBarViewController.swift in Sources */,
+				1E34A8031EA0CA3F000362DC /* PromiseCalendarViewController.swift in Sources */,
+				1E34A7FF1EA0CA1C000362DC /* PromiseCurrentListViewController.swift in Sources */,
 				1E34A7DB1EA0C513000362DC /* PromixSing.xcdatamodeld in Sources */,
+				1E34A8011EA0CA2E000362DC /* PromisePastListViewController.swift in Sources */,
+				1E34A8071EA0CBA1000362DC /* UIViewController_Ext.swift in Sources */,
 				1E34A7D31EA0C513000362DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +550,7 @@
 		};
 		1E34A7F01EA0C513000362DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D1DDC8E56D81E47BA8A08E /* Pods-PromixSing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PromixSing/Info.plist;
@@ -355,6 +563,7 @@
 		};
 		1E34A7F11EA0C513000362DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D7546F6705382C2FE2993F /* Pods-PromixSing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PromixSing/Info.plist;
@@ -367,6 +576,7 @@
 		};
 		1E34A7F31EA0C513000362DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD710A96CEDB20FC96A77A1 /* Pods-PromixSingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -381,6 +591,7 @@
 		};
 		1E34A7F41EA0C513000362DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BBE72DFAB6A28DFA7254569 /* Pods-PromixSingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +623,7 @@
 				1E34A7F11EA0C513000362DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E34A7F21EA0C513000362DC /* Build configuration list for PBXNativeTarget "PromixSingTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +632,7 @@
 				1E34A7F41EA0C513000362DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

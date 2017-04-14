@@ -20,12 +20,33 @@
                     <view key="view" contentMode="scaleToFill" id="TpM-fG-GqI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Kbi-TE-6NJ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="dividerColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isDividerHidden" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Kbi-TE-6NJ" firstAttribute="leading" secondItem="TpM-fG-GqI" secondAttribute="leading" id="8ZS-0T-ESz"/>
+                            <constraint firstItem="YbJ-7j-uOL" firstAttribute="top" secondItem="Kbi-TE-6NJ" secondAttribute="bottom" id="RmG-rN-pUT"/>
+                            <constraint firstAttribute="trailing" secondItem="Kbi-TE-6NJ" secondAttribute="trailing" id="fcU-mU-OD7"/>
+                            <constraint firstItem="Kbi-TE-6NJ" firstAttribute="top" secondItem="TpM-fG-GqI" secondAttribute="top" constant="20" id="fmy-5G-PwU"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="Kbi-TE-6NJ" id="9tv-0h-hL2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bIE-Cn-4jP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-290" y="-501"/>
+            <point key="canvasLocation" x="-290.39999999999998" y="-501.49925037481262"/>
         </scene>
         <!--Promise Calendar View Controller-->
         <scene sceneID="Pno-Ut-e4z">

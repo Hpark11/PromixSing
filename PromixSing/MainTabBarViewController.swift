@@ -15,6 +15,21 @@ class MainTabBarViewController: PageTabBarController {
         
         delegate = self
         preparePageTabBar()
+        prepareFABButton()
+    }
+    
+    fileprivate var fabButton: FABButton!
+    fileprivate func prepareFABButton() {
+
+        fabButton = FABButton(image: Icon.cm.add, tintColor: .white)
+        fabButton.frame.size.height = 56
+        fabButton.frame.size.width = 56
+        
+        fabButton.center = CGPoint(x: view.frame.width - 48, y: view.frame.height - 96)
+        
+        fabButton.pulseColor = .white
+        fabButton.backgroundColor = Color.red.base
+        view.addSubview(fabButton)
     }
 }
 

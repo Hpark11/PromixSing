@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Material
 
 class PromiseCurrentListViewController: UIViewController {
 
@@ -20,6 +21,7 @@ class PromiseCurrentListViewController: UIViewController {
         tableView.register(PromiseCell.self)
         tableView.separatorStyle = .none
     }
+    
 }
 
 extension PromiseCurrentListViewController : UITableViewDelegate, UITableViewDataSource {

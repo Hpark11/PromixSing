@@ -58,7 +58,7 @@ class PromiseCell: UITableViewCell, NibLoadable {
     }
     
     fileprivate func prepareMoreButton() {
-        moreButton = IconButton(image: Icon.cm.moreVertical, tintColor: Color.grey.base)
+        moreButton = IconButton(image: Icon.cm.moreHorizontal, tintColor: Color.grey.base)
     }
     
     fileprivate func prepareToolbar() {

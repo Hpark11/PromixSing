@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -83,6 +83,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZBO-Jr-0uh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1618" y="-501"/>
+        </scene>
+        <!--MainFAB Menu View Controller-->
+        <scene sceneID="eTB-B2-1v0">
+            <objects>
+                <viewController storyboardIdentifier="MainFABMenuViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Wh2-qY-MiC" customClass="MainFABMenuViewController" customModule="PromixSing" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g7Q-SH-lUu"/>
+                        <viewControllerLayoutGuide type="bottom" id="RDq-Ax-WN3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qOo-8p-x41">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jHE-WQ-DyM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1618" y="203"/>
         </scene>
     </scenes>
 </document>

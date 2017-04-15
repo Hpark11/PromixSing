@@ -26,10 +26,9 @@ class MainTabBarViewController: PageTabBarController {
         delegate = self
         preparePageTabBar()
         prepareFABButton()
-        prepareFABMenu()
         prepareNotesFABMenuItem()
         prepareRemindersFABMenuItem()
-        fabMenu.fabMenuItems = [notesFABMenuItem, remindersFABMenuItem]
+        prepareFABMenu()
     }
     
     fileprivate func prepareFABButton() {
@@ -41,6 +40,7 @@ class MainTabBarViewController: PageTabBarController {
     fileprivate func prepareFABMenu() {
         fabMenu = FABMenu()
         fabMenu.fabButton = fabButton
+        fabMenu.fabMenuItems = [notesFABMenuItem, remindersFABMenuItem]
         
         view.layout(fabMenu)
             .size(fabMenuSize)
@@ -72,12 +72,10 @@ class MainTabBarViewController: PageTabBarController {
 
 extension MainTabBarViewController {
     func handleNotesFABMenuItem(button: UIButton) {
-        //transition(to: NotesViewController())
         fabMenu.close()
     }
     
     func handleRemindersFABMenuItem(button: UIButton) {
-        //transition(to: RemindersViewController())
         fabMenu.close()
     }
 }

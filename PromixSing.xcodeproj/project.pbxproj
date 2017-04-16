@@ -19,6 +19,7 @@
 		1E34A8011EA0CA2E000362DC /* PromisePastListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E34A8001EA0CA2E000362DC /* PromisePastListViewController.swift */; };
 		1E34A8031EA0CA3F000362DC /* PromiseCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E34A8021EA0CA3F000362DC /* PromiseCalendarViewController.swift */; };
 		1E34A8071EA0CBA1000362DC /* UIViewController_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E34A8061EA0CBA1000362DC /* UIViewController_Ext.swift */; };
+		1E43C0F11EA38762003B3780 /* RecordPromiseByManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E43C0F01EA38762003B3780 /* RecordPromiseByManualViewController.swift */; };
 		1E57C2D11EA0FE54001BE8AE /* PromiseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E57C2CF1EA0FE54001BE8AE /* PromiseCell.swift */; };
 		1E57C2D21EA0FE54001BE8AE /* PromiseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E57C2D01EA0FE54001BE8AE /* PromiseCell.xib */; };
 		1E57C2D51EA0FEBC001BE8AE /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E57C2D41EA0FEBC001BE8AE /* NibLoadable.swift */; };
@@ -54,6 +55,7 @@
 		1E34A8001EA0CA2E000362DC /* PromisePastListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromisePastListViewController.swift; sourceTree = "<group>"; };
 		1E34A8021EA0CA3F000362DC /* PromiseCalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromiseCalendarViewController.swift; sourceTree = "<group>"; };
 		1E34A8061EA0CBA1000362DC /* UIViewController_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController_Ext.swift; sourceTree = "<group>"; };
+		1E43C0F01EA38762003B3780 /* RecordPromiseByManualViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordPromiseByManualViewController.swift; sourceTree = "<group>"; };
 		1E57C2CF1EA0FE54001BE8AE /* PromiseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromiseCell.swift; sourceTree = "<group>"; };
 		1E57C2D01EA0FE54001BE8AE /* PromiseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PromiseCell.xib; sourceTree = "<group>"; };
 		1E57C2D41EA0FEBC001BE8AE /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 		1E34A7F61EA0C5B0000362DC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1E43C0EF1EA3870C003B3780 /* Record */,
 				1E34A7FD1EA0C9D9000362DC /* Main */,
 				1E34A7D21EA0C513000362DC /* AppDelegate.swift */,
 			);
@@ -191,6 +194,14 @@
 				1E16EDFA1EA0D7210023A916 /* MainTabBarViewController.swift */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		1E43C0EF1EA3870C003B3780 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				1E43C0F01EA38762003B3780 /* RecordPromiseByManualViewController.swift */,
+			);
+			name = Record;
 			sourceTree = "<group>";
 		};
 		1E57C2CD1EA0FE18001BE8AE /* Cell */ = {
@@ -427,6 +438,7 @@
 			files = (
 				1E34A7FC1EA0C814000362DC /* Reusable.swift in Sources */,
 				1E16EDFB1EA0D7210023A916 /* MainTabBarViewController.swift in Sources */,
+				1E43C0F11EA38762003B3780 /* RecordPromiseByManualViewController.swift in Sources */,
 				1E34A8031EA0CA3F000362DC /* PromiseCalendarViewController.swift in Sources */,
 				1E57C2D51EA0FEBC001BE8AE /* NibLoadable.swift in Sources */,
 				1E34A7FF1EA0CA1C000362DC /* PromiseCurrentListViewController.swift in Sources */,

@@ -21,6 +21,11 @@ class MainTabBarViewController: PageTabBarController {
     fileprivate var notesFABMenuItem: FABMenuItem!
     fileprivate var remindersFABMenuItem: FABMenuItem!
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        pageTabBar.isHidden = false
+    }
+    
     open override func prepare() {
         super.prepare()
         delegate = self
@@ -76,6 +81,17 @@ extension MainTabBarViewController {
     }
     
     func handleRemindersFABMenuItem(button: UIButton) {
+        let recordPromiseViewController = UIViewController.register(RecordPromiseByManualViewController.self)
+        self.addChildViewController(recordPromiseViewController)
+        recordPromiseViewController.view.frame = CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height)
+        self.view.addSubview(recordPromiseViewController.view)
+        recordPromiseViewController.view.alpha = 0
+        
+        UIView.animate(withDuration: 0.6) {
+            recordPromiseViewController.view.alpha = 1
+        }
+        
+        pageTabBar.isHidden = true
         fabMenu.close()
     }
 }

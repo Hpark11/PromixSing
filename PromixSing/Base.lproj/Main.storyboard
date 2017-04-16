@@ -46,7 +46,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bIE-Cn-4jP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-290.39999999999998" y="-501.49925037481262"/>
+            <point key="canvasLocation" x="164" y="-502"/>
         </scene>
         <!--Promise Calendar View Controller-->
         <scene sceneID="Pno-Ut-e4z">
@@ -82,25 +82,35 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZBO-Jr-0uh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1618" y="-501"/>
+            <point key="canvasLocation" x="1361" y="-502"/>
         </scene>
-        <!--MainFAB Menu View Controller-->
-        <scene sceneID="eTB-B2-1v0">
+        <!--Record Promise By Manual View Controller-->
+        <scene sceneID="jJg-Wr-yVW">
             <objects>
-                <viewController storyboardIdentifier="MainFABMenuViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Wh2-qY-MiC" customClass="MainFABMenuViewController" customModule="PromixSing" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RecordPromiseByManualViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="57n-Zm-has" customClass="RecordPromiseByManualViewController" customModule="PromixSing" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="g7Q-SH-lUu"/>
-                        <viewControllerLayoutGuide type="bottom" id="RDq-Ax-WN3"/>
+                        <viewControllerLayoutGuide type="top" id="6qu-l0-K8J"/>
+                        <viewControllerLayoutGuide type="bottom" id="ge4-ab-ChW"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="qOo-8p-x41">
+                    <view key="view" contentMode="scaleToFill" id="rUC-i0-3Du">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJs-nj-FVP">
+                                <rect key="frame" x="164" y="325" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="button:" destination="57n-Zm-has" eventType="touchUpInside" id="kqv-yO-Mah"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jHE-WQ-DyM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ADg-A5-IDy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1618" y="203"/>
+            <point key="canvasLocation" x="1090" y="233"/>
         </scene>
     </scenes>
 </document>

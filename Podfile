@@ -7,7 +7,7 @@ target 'PromixSing' do
 
   # Pods for PromixSing
   pod 'Material', '~> 2.5.0'
-
+  pod 'JTAppleCalendar', '~> 7.0'
   target 'PromixSingTests' do
     inherit! :search_paths
     # Pods for testing

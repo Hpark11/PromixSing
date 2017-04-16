@@ -20,6 +20,9 @@
 		1E34A8031EA0CA3F000362DC /* PromiseCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E34A8021EA0CA3F000362DC /* PromiseCalendarViewController.swift */; };
 		1E34A8071EA0CBA1000362DC /* UIViewController_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E34A8061EA0CBA1000362DC /* UIViewController_Ext.swift */; };
 		1E43C0F11EA38762003B3780 /* RecordPromiseByManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E43C0F01EA38762003B3780 /* RecordPromiseByManualViewController.swift */; };
+		1E43C0F31EA3B137003B3780 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E43C0F21EA3B137003B3780 /* CalendarCell.swift */; };
+		1E43C0F51EA3B3BE003B3780 /* UICollectionView_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E43C0F41EA3B3BE003B3780 /* UICollectionView_Ext.swift */; };
+		1E43C0F71EA3CFFB003B3780 /* UIColor_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E43C0F61EA3CFFB003B3780 /* UIColor_Ext.swift */; };
 		1E57C2D11EA0FE54001BE8AE /* PromiseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E57C2CF1EA0FE54001BE8AE /* PromiseCell.swift */; };
 		1E57C2D21EA0FE54001BE8AE /* PromiseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E57C2D01EA0FE54001BE8AE /* PromiseCell.xib */; };
 		1E57C2D51EA0FEBC001BE8AE /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E57C2D41EA0FEBC001BE8AE /* NibLoadable.swift */; };
@@ -56,6 +59,9 @@
 		1E34A8021EA0CA3F000362DC /* PromiseCalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromiseCalendarViewController.swift; sourceTree = "<group>"; };
 		1E34A8061EA0CBA1000362DC /* UIViewController_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController_Ext.swift; sourceTree = "<group>"; };
 		1E43C0F01EA38762003B3780 /* RecordPromiseByManualViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordPromiseByManualViewController.swift; sourceTree = "<group>"; };
+		1E43C0F21EA3B137003B3780 /* CalendarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		1E43C0F41EA3B3BE003B3780 /* UICollectionView_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView_Ext.swift; sourceTree = "<group>"; };
+		1E43C0F61EA3CFFB003B3780 /* UIColor_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_Ext.swift; sourceTree = "<group>"; };
 		1E57C2CF1EA0FE54001BE8AE /* PromiseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromiseCell.swift; sourceTree = "<group>"; };
 		1E57C2D01EA0FE54001BE8AE /* PromiseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PromiseCell.xib; sourceTree = "<group>"; };
 		1E57C2D41EA0FEBC001BE8AE /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
@@ -172,6 +178,8 @@
 			children = (
 				1E34A8061EA0CBA1000362DC /* UIViewController_Ext.swift */,
 				1E57C2D61EA0FF0F001BE8AE /* UITableView_Ext.swift */,
+				1E43C0F41EA3B3BE003B3780 /* UICollectionView_Ext.swift */,
+				1E43C0F61EA3CFFB003B3780 /* UIColor_Ext.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -209,6 +217,7 @@
 			children = (
 				1E57C2CF1EA0FE54001BE8AE /* PromiseCell.swift */,
 				1E57C2D01EA0FE54001BE8AE /* PromiseCell.xib */,
+				1E43C0F21EA3B137003B3780 /* CalendarCell.swift */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -366,7 +375,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		92CEDE274FA39603D939DD59 /* [CP] Check Pods Manifest.lock */ = {
@@ -381,7 +390,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		B55E3607A4660C422449184E /* [CP] Copy Pods Resources */ = {
@@ -442,11 +451,14 @@
 				1E34A8031EA0CA3F000362DC /* PromiseCalendarViewController.swift in Sources */,
 				1E57C2D51EA0FEBC001BE8AE /* NibLoadable.swift in Sources */,
 				1E34A7FF1EA0CA1C000362DC /* PromiseCurrentListViewController.swift in Sources */,
+				1E43C0F51EA3B3BE003B3780 /* UICollectionView_Ext.swift in Sources */,
 				1E34A7DB1EA0C513000362DC /* PromixSing.xcdatamodeld in Sources */,
 				1E57C2D71EA0FF0F001BE8AE /* UITableView_Ext.swift in Sources */,
 				1E57C2D11EA0FE54001BE8AE /* PromiseCell.swift in Sources */,
 				1E34A8011EA0CA2E000362DC /* PromisePastListViewController.swift in Sources */,
+				1E43C0F71EA3CFFB003B3780 /* UIColor_Ext.swift in Sources */,
 				1E34A8071EA0CBA1000362DC /* UIViewController_Ext.swift in Sources */,
+				1E43C0F31EA3B137003B3780 /* CalendarCell.swift in Sources */,
 				1E34A7D31EA0C513000362DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

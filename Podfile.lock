@@ -1,14 +1,17 @@
 PODS:
+  - JTAppleCalendar (7.0.1)
   - Material (2.5.2):
     - Material/Core (= 2.5.2)
   - Material/Core (2.5.2)
 
 DEPENDENCIES:
+  - JTAppleCalendar (~> 7.0)
   - Material (~> 2.5.0)
 
 SPEC CHECKSUMS:
+  JTAppleCalendar: 7c8cba3e06fd6fdfed72382eeeb87c304e727ddb
   Material: 00ae261fa04dd3f3f8584d07e44ac658fa1bc6fd
 
-PODFILE CHECKSUM: bc803f95316850c80523e2b000ec65f53a3d8a61
+PODFILE CHECKSUM: bbef4e0c7a46a15343a814ab006dea99e03c0aac
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1

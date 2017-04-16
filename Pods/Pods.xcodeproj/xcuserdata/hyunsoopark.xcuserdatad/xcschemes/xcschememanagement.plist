@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>JTAppleCalendar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Material-com.cosmicmind.material.fonts.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,6 +37,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>009A42AC36979C83CDA22CF56B861452</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>3778B8C2CC3D0E1D353FFFB9A1120B81</key>
 		<dict>
 			<key>primary</key>
@@ -52,7 +62,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FE68000BB3E2003B28F369BC659C2EFF</key>
+		<key>BFED2E29E95E065400F8846E0231A970</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -17,7 +17,6 @@ class RecordPromiseByManualViewController: UIViewController {
     let monthColor = UIColor.white
     let selectedMonthColor = UIColor(hex: "3a294b")
     let currentDateSelectedViewColor = UIColor(hex: "4e3f5d")
-    
     let formatter = DateFormatter()
     
     @IBAction func button(_ sender: Any) {
